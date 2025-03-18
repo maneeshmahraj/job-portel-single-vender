@@ -8,6 +8,6 @@ const {
 
 router.get("/read", getLanguages);
 router.post("/create", addLanguage);
-router.post("/:id", deleteLanguage);
+router.post("/del", deleteLanguage);
 
 module.exports = router;
